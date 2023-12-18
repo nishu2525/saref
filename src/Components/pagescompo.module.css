@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Nova+Square&family=Poppins:wght@200;500&family=Roboto+Condensed:ital@1&family=Single+Day&display=swap');
+
+.thead {
+  color: #a70d17;
+  margin-top: 8rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 4rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: flex;
+  /* text-decoration: underline; */
+  align-items: center;
+  justify-content: center;
+}
+
+.theadp {
+  color: #282829;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+  text-transform: capitalize;
+  padding-left: 25rem;
+  padding-right: 25rem;
+}
+
+.bhead {
+  color: #a70d17;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 4rem;
+  text-decoration: underline;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-top: 2rem;
+  margin-left: 24rem;
+  padding-bottom: 0rem;
+  margin-bottom: -12rem;
+}
+
+.tcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tpara {
+  margin-top: 5em;
+  margin-right: 2em;
+  float: left;
+  width: 50%;
+  color: #397f84;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.5em;
+  font-weight: 300;
+  /* text-transform: capitalize; */
+  padding-left: 25rem;
+  padding-right: 5rem;
+}
+
+.timg {
+  float: left;
+  width: 50%;
+  height: 30rem;
+  width: 55rem;
+  margin-top: 15rem;
+  box-shadow: 0 8px 18x 8px rgba(0, 0, 0.3, 0.3);
+}
+/* CSR Pages*/
+.heading11{
+  display: flex;
+  margin-top: 02em;
+  color: rgb(81, 78, 78);
+  align-items: center;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+  font-size: 5rem;
+  text-decoration: underline rgb(81, 78, 78) 2px;
+  text-transform: capitalize;
+}
+.para1{
+  margin-top: 2rem;
+  padding: 3rem 15rem 1.5rem 15rem;
+  letter-spacing: .3rem;
+  line-height: 3rem;
+  color: #c22b0d;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+}
+
+.box{
+  width: 80%;
+  border-radius: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  margin-left: 12rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: aliceblue;
+}
+.heading{
+  display: flex;
+  margin-bottom: 0.5em;
+  text-decoration: underline;
+  align-items: center;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 800;
+}
+.para{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight:600;
+  padding-bottom: 1.5rem;
+}
+.box ul{
+  margin-left: 5rem;
+}
+.box ul li{
+  list-style-type:circle;
+  padding-top: 2rem;
+}
+.sub_heading ul li span{
+  font-weight: bolder;
+}
+.boxd{
+    width: 80%;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 12rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.theadpd{
+  color: #282829;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+  text-transform: capitalize;
+  padding-left: 3.5rem;
+  padding-right: 2.5rem;
+}
+
+@media (max-width: 600px){
+  .thead {
+    text-decoration: underline; 
+    position: relative;
+    right: 0vw;
+    
+  }
+  .theadp{
+    padding-left: 2rem;
+    padding-right: 0rem;
+  }
+  .tcontainer {
+    flex-direction: column; 
+  }
+  .tpara,
+  .timg {
+    width: 90%; 
+    margin-top: 0; 
+  }
+  .tpara{
+    margin-top: 1.5rem;
+  padding-left: 1rem;
+  margin-right: -2rem;
+  }
+  .bhead {
+  margin-bottom: 0rem;
+  position: relative;
+  right: 60vw;
+  margin-left: 25rem;
+  margin-right: -20rem;
+  }
+  .heading11{
+    margin-top: 8rem;
+    padding-left: 2rem;
+  }
+  .para1{
+    margin-top: 0rem;
+    padding-left: 1.5rem;
+    padding-right: 0rem;
+  }
+  .heading{
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+  }
+  .box{
+    width: 90%;
+    margin-left: 1.5rem;
+    padding: 2rem 0rem 2rem 0rem;
+    /* background-color: rgb(42, 107, 163); */
+    background-color: aliceblue;
+  }
+  .box ul{
+    margin-left: 1rem;
+  }
+  .sub_heading ul li span{
+    padding-right: 1rem;
+  }
+  .box ul li{
+    margin-top: 1rem;
+  }
+  .boxd{
+    width: 90%;
+    margin-left: 2rem;
+  }
+}

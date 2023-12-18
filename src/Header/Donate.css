@@ -1,0 +1,72 @@
+.donate-text {
+    color: #a70d17;
+    padding-top: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 4em;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donate_quote{
+    font-size: 3em;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+color: rgb(15, 15, 70);
+}  
+.barcode{
+    flex-direction: column;
+    padding-left: 18em;
+    width: 40vw;
+    margin-top: 2em;
+    margin-bottom: 10em;
+}
+.qr_bank_container{
+    width: 90%;
+display: flex;
+justify-content: space-around;
+}
+.bank_heading{
+    font-size: 3em;
+    margin-top: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(17, 17, 65);
+    /* text-decoration: underline; */
+}
+.acc_details{
+    margin-top: 4rem;
+    font-size: 1.8em;
+
+}
+.h3_tags{
+    font-weight: 800;
+    margin-bottom: 3rem;
+
+}
+@media (max-width: 600px){
+
+    .barcode{
+        flex-direction: column;
+        padding-left: 3rem;
+        margin-left: 6rem;
+        width: 60vw;
+        margin-top: 40rem;
+        margin-bottom: 10em;
+    }
+    .bank_details{
+        margin-left: -25rem;
+    }
+    .acc_details{
+        margin-left: 0rem;
+        margin-top: 4rem;
+        font-size: 2.1em;
+    }
+    .donate_quote{padding-left: 4.2rem;
+    padding-right: 4.2rem;}
+}

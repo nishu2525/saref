@@ -1,0 +1,56 @@
+.refund_heading{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 1000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* text-decoration: underline; */
+    color:black;
+    /* margin-top: 1.5rem; */
+}
+
+.refund_para{
+    width: 90%;
+    border-radius: 2rem;
+    margin-top: 3em;
+    margin-bottom: 5rem;
+    margin-left: 8rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 4rem 2rem 4rem;
+    background-color: aliceblue;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.no_1{
+    font-size: 1.5em;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+.sub_headings,.sub_headings2{
+    padding-left: 7em;
+}
+.sub_h{
+    font-size: 1em;
+    font-weight: 700;
+}
+
+
+@media (max-width: 600px){
+    .refund_heading{
+        margin-top: 8rem;
+        padding-left: 3.5rem;
+        padding-right: 10rem;
+    }
+    .refund_para{
+        width: 90%;
+        margin-left: 1.8rem;
+    }
+    .sub_headings,.sub_headings2{
+        padding-left: 3rem;
+    }
+  
+}

@@ -1,0 +1,100 @@
+.aboutpg{
+    background-color: #bcc7d1;
+    width: 100vw;
+   /* overflow-x:hidden; */
+   /* overflow-y: visible; */
+}
+.abtimg{
+    width: 100vw;
+    opacity: 60%;
+}
+.abtq,.abtq1{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-family: 'Times New Roman', Times, serif;
+  transform: translate(-50%, -50%); 
+  background: -webkit-linear-gradient(#000000, #2f4f4f);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+  width: 80%;
+  font-size: 4rem; 
+  line-height: 1.5;
+}
+.box{
+    width: 80%;
+    border-radius: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    margin-left: 12rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 4rem 2rem 4rem;
+    background-color: aliceblue;
+}
+.heading{
+    display: flex;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+}
+.para{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+@media (max-width: 600px ){
+  .aboutpg{
+    width: 100vw;
+    background-color: #bcc7d1;
+}
+    .box{
+    width: 90%;
+    margin-left: 1.5rem;
+    padding: 2rem 0rem 2rem 0rem;
+    /* background-color: rgb(42, 107, 163); */
+    background-color: aliceblue;
+  }
+  .heading{
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 2rem;
+  }
+  .para{
+    font-size: 1.8rem;
+  }
+  .abtimg{
+  height:55vh ;
+  opacity: 70%;
+  width: 100vw;
+}
+.abtq{
+    top: 25%;
+    font-size: 3rem; 
+    position: absolute;
+    left: 50%;
+  }
+  .abtq1{
+    top: 30%;
+    font-size: 3rem; 
+    position: absolute;
+    left: 0%;
+  }
+}
+/* @media (max-width: 400px ){
+  .abtimg{
+    height:55vh ;
+    width: 100%;
+    opacity: 70%;
+  }
+} */

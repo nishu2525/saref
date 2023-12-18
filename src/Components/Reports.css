@@ -1,0 +1,72 @@
+.top_section{
+    display: flex;
+
+}
+.hero_section{
+    display: inline-flex;
+    margin-top: 10em;
+    height: 45vh;
+    /* justify-content: flex-end; */
+    /* justify-content: end; */
+    margin-left: 12em;
+}
+.hero_heading{
+    display: inline-flex;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+    justify-content: space-around;
+  margin-top: 5em;
+  margin-left: 5em;
+  width: 35vw;
+  color: red;
+  font-size: 3rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.report_quote{
+    margin-left: 6em;
+    margin-top: 1em;
+    font-size: 2rem;
+
+}
+.report_2020{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-decoration: underline;
+    color: red;
+    margin-left: 40em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 40%;
+margin-left: 35em;
+border-radius: 2em;
+margin-bottom: 6rem;
+}
+.annual_name{
+    margin-top: 2rem;
+display: flexbox;
+}
+.annual_img{
+ font-size: 5rem;
+ padding-left: .4em; 
+}
+
+
+@media (max-width: 600px){
+    .report_img{
+        display: none;
+    }
+    .report_2020{
+        margin-left: 10rem;
+        padding-left: 1rem;
+    }
+    .annual_img{
+        padding-left: 0rem;
+        padding-right: 0rem; 
+    }
+    
+}

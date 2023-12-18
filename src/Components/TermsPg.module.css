@@ -1,0 +1,96 @@
+
+.tncpg{
+    background-color: #bcc7d1;
+}
+.heading1,.heading12{
+    display: flex;
+    margin-top: 5em;
+    color: rgb(81, 78, 78);
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    /* text-decoration: underline rgb(81, 78, 78) 2px; */
+}
+
+.para1{
+    margin-top: 1.5rem;
+    padding: 0rem 15rem 1.5rem 15rem;
+    letter-spacing: .3rem;
+    line-height: 3rem;
+    color: #c22b0d;
+    /* padding-left: 2rem; */
+    /* padding-right: 2rem; */
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    /* padding-bottom: 1.5rem; */
+}
+
+.box{
+    width: 80%;
+    border-radius: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 12rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 4rem 2rem 4rem;
+    background-color: aliceblue;
+}
+.heading{
+    display: flex;
+    margin-bottom: 0.5em;
+    /* text-decoration: underline; */
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+}
+.para{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+.box ul{
+    margin-left: 5rem;
+}
+.box ul li{
+    list-style-type:circle;
+    padding-top: 2rem;
+}
+
+@media (max-width: 600px){
+    .heading1{
+        margin-top: 8rem;
+        padding-left: 1.5rem;
+        font-size: 3rem;
+      }
+      .para1{
+        margin-top: 3rem;
+        padding-left: 1.5rem;
+        padding-right: 0rem;
+      }
+    .box{
+        width: 90%;
+        margin-left: 1.5rem;
+        padding: 2rem 0rem 2rem 0rem;
+        /* background-color: rgb(42, 107, 163); */
+        background-color: aliceblue;
+      }
+      .heading{
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+      }
+      .box ul{
+        margin-left: 1rem;
+      }
+      .box ul li{
+        margin-top: 1rem;
+      }
+}

@@ -1,0 +1,379 @@
+.footer {
+  margin-top: auto;
+  width: 100%;
+  background-color: black;
+  margin-top: auto;
+  height: max-content;
+
+}
+
+.footer_heading{
+  height: 12rem;
+  background-color: #4dc0b5;
+  color: #212529;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2em;
+  font-family: din-2014, sans-serif;
+  font-weight: 400;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+}
+
+
+.bottom-heading {
+  color: bisque;
+  padding-left: 5rem;
+  margin-left: 45rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: din-2014, sans-serif;
+  font-weight: 400;
+}
+.contact-btn {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.contact-btn:focus {
+  color: #171e29;
+}
+
+.contact-btn:hover {
+  border-color: #4dc0b5;
+  color: #4dc0b5;
+  fill: #4dc0b5;
+}
+
+.contact-btn:active {
+  border-color: #4dc0b5;
+  color: #4dc0b5;
+  fill: #4dc0b5;
+}
+
+/* 2nd contact button */
+.contact-btn-1 {
+  margin-top: 1.2rem;
+  margin-left: 72%;
+}
+.contact-btn-2{
+  margin-bottom: 1.2rem;
+  margin-left: 80%;
+}
+
+.contact-btn-1 ,.contact-btn-2{
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.contact-btn-1:focus {
+  color: #171e29;
+}
+
+.contact-btn-1:hover {
+  border-color: #4dc0b5;
+  color: #4dc0b5;
+  fill: #4dc0b5;
+}
+
+.contact-btn-1:active {
+  border-color: #4dc0b5;
+  color: #4dc0b5;
+  fill: #4dc0b5;
+}
+
+.contact-btn-2:focus {
+  color: #171e29;
+}
+.contact-btn-2:hover {
+  border-color: #4dc0b5;
+  color: #4dc0b5;
+  fill: #4dc0b5;
+}
+.contact-btn-2:active {
+  border-color: #4dc0b5;
+  color: #4dc0b5;
+  fill: #4dc0b5;
+}
+
+.footer-bottom {
+  color: white;
+  
+}
+
+.break-line {
+  display: grid;
+  margin-top: 1.5rem;
+  margin-left: 5rem;
+}
+.bottom_links1{
+  margin-left: 30rem;
+ 
+}
+.bottom_links ul li a {
+  text-transform: capitalize;
+  color: white;
+  transition: 0.5s;
+  padding-left: 8rem;
+  font-size: 1em;
+  padding-bottom: 1rem;
+  text-decoration: underline;
+  scroll-behavior:smooth;
+
+}
+
+.bottom_links ul li:hover>a {
+  transform-origin: left;
+  color: #4dc0b5;
+  /* text-decoration: underline; */
+  transition: 0.5s;
+}
+
+.copy_right {
+  background-color: #4dc0b5;
+  color: black;
+  padding-left: 20vw;
+  font-size: 1em;
+}
+
+.footer_middle{
+  background-color: #bcc7d1;
+  color: white;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2em;
+  font-family: din-2014, sans-serif;
+  font-weight: 400;
+  height: 25vh;
+}
+.social_media ul li{
+  justify-content: flex-end;
+  float: left;
+  height: 7rem;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  size: 2em;
+}
+.social_media ul li :hover{
+  font-size: x-large;
+  transform-origin: bottom;
+  transition: .3s;
+}
+.instagram_f{
+  color: rgb(160, 24, 92);
+  font-size: larger;
+}
+.whatapp_f{
+  margin-left: 1em;
+  color: green;
+  font-size: larger;
+}
+.youtube_f{
+  margin-left: 1em;
+  color: red;
+font-size: larger;
+
+}
+
+.partner_img1{
+  margin-left: 1.5rem;
+  height: 22vh;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+
+}
+.partner_img2{
+  margin-left: 6rem;
+  height: 8rem;
+  margin-bottom: 2.5rem;
+}
+.partner_img3{
+  margin-left: 8rem;
+  height: 15rem;
+  margin-bottom: 1.5rem;
+}
+.partner_img4{
+  margin-left: 10rem;
+  height: 10rem;
+  margin-bottom: 2rem;
+}
+.partner_heading{
+  color: #000;
+  text-decoration: underline;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  place-items: center;
+  margin-top: 4.5rem;
+  margin-left: 38rem;
+}
+.bottom_links2{
+
+  margin-top: -5rem;
+}
+.link2{
+  text-transform: capitalize;
+  color: white;
+  margin-left: 55rem;
+  /* transition: 0.5s; */
+  padding-left: 8rem;
+  font-size: 1em;
+  text-decoration: none;
+}
+.link2:hover{
+  transform-origin: left;
+  color: #4dc0b5;
+  text-decoration: underline;
+  transition: 0.5s;
+  
+}
+
+@media (max-width: 600px) {
+  
+  .footer_heading{
+    height: 12rem;
+    /* width: 100vw; */
+    padding: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer_middle{
+    height: 23vh;
+    color: #dfd3d3;
+  }
+  
+  .partner_img1{
+    margin-left: -5rem;
+    height: 15vh;
+    border-radius: 50%;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+  }
+  .partner_img2{
+    margin-left: -5rem;
+    height: 8vh;
+    margin-bottom: 0rem;
+  }
+  .partner_img3{
+    margin-top: -16rem;
+    margin-left: 18rem;
+    height: 15vh;
+    margin-bottom: 0rem;
+  }
+  .partner_img4{
+    margin-left: 28rem;
+    height: 8vh;
+    margin-top: -20rem;
+  }
+  .contact-btn-1{
+    margin-left: 40vw;
+    margin-top:-20rem;
+  }
+  .contact-btn-2{
+    margin-left:39.5vw;
+  }
+  .break_line {
+    width: 90vw;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+  .bottom-heading {
+    margin-left: 15rem;
+  }
+  .link2{
+    margin-left: 10rem;
+    
+  }
+  .bottom_links2{
+    margin-top: -5rem;
+  }
+  .bottom_links ul li a{
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  .copy_right {
+    margin-top: 2rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    /* padding-right: 2rem; */
+
+    font-size: 1.5rem;
+  }
+  .partner_heading{
+  margin-left: 3rem;
+
+  }
+  .bottom_links1{
+    /* background-color: red; */
+    margin-left: -6rem;
+  }
+  /* .contact-btn-2 {
+    min-width: 170px;
+  }
+  .contact-btn-1 {
+    margin-top: 1.2rem;
+    margin-left: 20vw;
+    min-width: 170px;
+  }
+  .contact-btn-2 {
+    margin-top: 1.2rem;
+    margin-left: 0vw;
+  }
+    .contact-btn {
+      min-width: 170px;
+    } */
+  }
+
+  

@@ -1,0 +1,105 @@
+
+.head-text{
+    position: relative;
+
+}
+.register-line{
+  background-color: navy;
+  color: white;
+  height: 1.5rem;
+  font-size:  1.3em;
+  font-weight: 200;
+  /* margin-top: 7rem; */
+}
+.quote-on-img{
+    position: absolute;
+    left: 20rem;
+    /* bottom: 75%; */
+}
+.quote-on-img h1 span{
+    color: red;
+}
+
+.btn-part{
+  margin-top: 7rem;
+    position: absolute;
+    margin-left: 10rem;
+    /* left: 55rem\\; */
+    /* bottom: 50%;  */
+}
+.jcontainer{
+  width: 100vw;
+}
+.joinus-bg{
+  height: 40vh;
+  background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+  background-image: url('./Images/joinus-bg.jpeg');
+}
+
+.joinus-text{
+  margin-top: 0;
+  display: flex;
+  padding-left: 0rem;
+  padding-right: 15rem;
+  text-transform: capitalize;
+
+  padding-right: 0;
+  /* width: 100vw; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 0rem;
+  margin-top: -15rem;
+  font-weight: 800;
+  font-size: 3em;
+}
+.joinus-text-para{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+  margin-right: 0;
+}
+.joinus-bg{
+  display: flex;
+}
+.side-img{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 8rem;
+}
+@media (max-width: 600px){
+  .head-text{
+    width: 100vw;
+  }
+  .register-line{
+    height: 2.5rem;
+  }
+  .joinus-bg{
+    height: 60vh;
+    width: 100vw;
+    background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat; 
+    /* background-image: url('./images/joinus-bg.jpeg'); */
+  }
+  .jcontainer{
+    width: 100vw;
+  }
+  .joinus-text-para{
+    margin-left:0rem;
+    margin-right: 10rem;
+  }
+  .joinus-text{
+   margin-left: -33rem;
+    padding-left: 0rem;
+    margin-top: -25rem;
+    padding-right: 0rem;
+  }
+  .side-img{
+    margin-left: 5rem;
+    padding-top: 5rem;
+    
+  }
+}

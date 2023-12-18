@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Nova+Square&family=Poppins:wght@200;500&family=Roboto+Condensed:ital,wght@0,200;1,400&family=Single+Day&display=swap');
+.container{
+    height: 40rem;
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    border-radius: 15px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top:5rem ;
+    margin-bottom: 5rem;
+
+  }
+  .card{
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 60%; 
+  }
+
+  .card_content {
+    background-color: #9AD0C2;
+    height: 60%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card_title {
+    font-size: 1.9rem;
+    color: rgba(0, 0, 3, 0.8);
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-weight: 900;   
+    letter-spacing: 0.3rem;
+    font-family: 'Dhurjati', sans-serif;
+font-family: 'Nova Square', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Single Day', cursive;
+  }
+  .card_paragraph {
+    font-size: 1.5rem;
+   color:  #2980b9;
+    padding-left: 2rem;
+    padding-top: 1rem; 
+    padding-right: 2rem;
+  }
+
+  .card_button {
+    /* margin: 1rem; */
+    margin-left: 1.5rem;
+    margin-top: .8rem;
+    width: 25rem;
+    padding: 0.5rem  1.5rem;
+    border: none;
+    font-weight: bold;
+    letter-spacing:2px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #E8E8E8;
+    border: 1px solid #2980b9;
+  }
+
+  .card_button:hover {
+    background-color: #2980b9;
+  }
+  .container:hover{
+    height: 40rem;
+    box-shadow: 0 8px 8px rgba(0, 0, 0.3, 0.3);
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      height: 35rem;
+      width: 85%;
+      margin: 2.5rem;
+    }
+    .container:hover{
+      height: 37rem;
+      box-shadow: 0 8px 8px rgba(0, 0, 0.3, 0.3);
+    }
+    .card_button:hover {
+      transition: 0.3s;
+      background-color: #2980b9;
+    }
+
+  }
